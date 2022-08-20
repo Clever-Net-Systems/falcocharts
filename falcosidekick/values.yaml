@@ -145,6 +145,8 @@ config:
     mutualtls: false
     # -- check if ssl certificate of the output is valid
     checkcert: true
+    # -- extra labels to send to AlertManager
+    extralabels: ""
 
   elasticsearch:
     # -- Elasticsearch <http://host:port>, if not `empty`, Elasticsearch is *enabled*
