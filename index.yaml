@@ -24,6 +24,34 @@ entries:
   falco:
   - apiVersion: v2
     appVersion: 0.32.2
+    created: "2022-08-20T18:57:11.414957032Z"
+    dependencies:
+    - condition: falcosidekick.enabled
+      name: falcosidekick
+      repository: https://clever-net-systems.github.io/falcocharts/
+      version: 0.5.9
+    description: Falco
+    digest: 70704fe9501ffcaf77bda99b731d04dcac134d0703b2a07f63912520f34a3c9f
+    home: https://falco.org
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/falco/horizontal/color/falco-horizontal-color.svg
+    keywords:
+    - monitoring
+    - security
+    - alerting
+    - metric
+    - troubleshooting
+    - run-time
+    maintainers:
+    - email: cncf-falco-dev@lists.cncf.io
+      name: The Falco Authors
+    name: falco
+    sources:
+    - https://github.com/falcosecurity/falco
+    urls:
+    - https://github.com/Clever-Net-Systems/falcocharts/releases/download/falco-2.0.17/falco-2.0.17.tgz
+    version: 2.0.17
+  - apiVersion: v2
+    appVersion: 0.32.2
     created: "2022-08-12T08:10:51.366985996Z"
     dependencies:
     - condition: falcosidekick.enabled
@@ -3055,26 +3083,6 @@ entries:
     - https://github.com/falcosecurity/charts/releases/download/falco-exporter-0.3.0/falco-exporter-0.3.0.tgz
     version: 0.3.0
   falcosidekick:
-  - apiVersion: v1
-    appVersion: 2.26.0
-    created: "2022-08-20T17:47:38.122170384Z"
-    description: Connect Falco to your ecosystem
-    digest: f1e8273afe66dc03820a6057c10799f696d50752481efd1b2e55f01a13671808
-    home: https://github.com/falcosecurity/falcosidekick
-    icon: https://raw.githubusercontent.com/falcosecurity/falcosidekick/master/imgs/falcosidekick_color.png
-    keywords:
-    - monitoring
-    - security
-    - alerting
-    maintainers:
-    - email: cncf-falco-dev@lists.cncf.io
-      name: Issif
-    name: falcosidekick
-    sources:
-    - https://github.com/falcosecurity/falcosidekick
-    urls:
-    - https://github.com/Clever-Net-Systems/falcocharts/releases/download/falcosidekick-0.5.9/falcosidekick-0.5.9.tgz
-    version: 0.5.9
   - apiVersion: v1
     appVersion: 2.26.0
     created: "2022-08-03T07:58:45.661291518Z"
